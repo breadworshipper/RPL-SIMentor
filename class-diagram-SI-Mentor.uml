@@ -6,6 +6,10 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_rGdGwGg8Ee6EAvDwdigsTg" name="User"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_2JA1QGg8Ee6EAvDwdigsTg" name="Registered User">
     <generalization xmi:type="uml:Generalization" xmi:id="__RpNsGg8Ee6EAvDwdigsTg" general="_rGdGwGg8Ee6EAvDwdigsTg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZvYT4GkFEe6jstvzqiKf_A" type="_TLqIMGkFEe6jstvzqiKf_A" association="_ZvXs0GkFEe6jstvzqiKf_A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e3VFIGkFEe6jstvzqiKf_A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_evmsgGkFEe6jstvzqiKf_A" value="*"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_35xoQGg8Ee6EAvDwdigsTg" name="Mentor">
     <generalization xmi:type="uml:Generalization" xmi:id="_A2C_sGg9Ee6EAvDwdigsTg" general="_2JA1QGg8Ee6EAvDwdigsTg"/>
@@ -94,19 +98,6 @@
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:AssociationClass" xmi:id="_psgCgGhCEe6MNJ10B1e-FA" name="Info Join Kelas"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_5tdksGhCEe6MNJ10B1e-FA" name="Chat" memberEnd="_5teLwmhCEe6MNJ10B1e-FA _5tey0GhCEe6MNJ10B1e-FA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5teLwGhCEe6MNJ10B1e-FA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5teLwWhCEe6MNJ10B1e-FA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_5teLwmhCEe6MNJ10B1e-FA" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_5tdksGhCEe6MNJ10B1e-FA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__0lT8GhCEe6MNJ10B1e-FA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__xNP0GhCEe6MNJ10B1e-FA" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_5tey0GhCEe6MNJ10B1e-FA" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_5tdksGhCEe6MNJ10B1e-FA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ALjpgGhDEe6MNJ10B1e-FA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AKFC0GhDEe6MNJ10B1e-FA" value="*"/>
-    </ownedEnd>
-  </packagedElement>
   <packagedElement xmi:type="uml:AssociationClass" xmi:id="_EOmBIGhDEe6MNJ10B1e-FA" name="Stream Chat"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_SgyUYGhDEe6MNJ10B1e-FA" name="Verifikasi Mentor" memberEnd="_SgyUY2hDEe6MNJ10B1e-FA _Sgy7cGhDEe6MNJ10B1e-FA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SgyUYWhDEe6MNJ10B1e-FA" source="org.eclipse.papyrus">
@@ -126,5 +117,42 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MEz6AWhEEe6MNJ10B1e-FA" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_MEz6A2hEEe6MNJ10B1e-FA" type="_5TracGg8Ee6EAvDwdigsTg" association="_MEyr4GhEEe6MNJ10B1e-FA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7Kq0YGkEEe6jstvzqiKf_A" name="Melakukan Chat" memberEnd="_7Kt3sGkEEe6jstvzqiKf_A _7KuewGkEEe6jstvzqiKf_A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7KsCgGkEEe6jstvzqiKf_A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7KtQoGkEEe6jstvzqiKf_A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7Kt3sGkEEe6jstvzqiKf_A" type="_EOmBIGhDEe6MNJ10B1e-FA" association="_7Kq0YGkEEe6jstvzqiKf_A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Mj8gGkEEe6jstvzqiKf_A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__HhrgGkEEe6jstvzqiKf_A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7KuewGkEEe6jstvzqiKf_A" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_7Kq0YGkEEe6jstvzqiKf_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_EayU4GkFEe6jstvzqiKf_A" name="Melakukan Chat2" visibility="package" memberEnd="_Eay78GkFEe6jstvzqiKf_A _Eay78WkFEe6jstvzqiKf_A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EayU4WkFEe6jstvzqiKf_A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EayU4mkFEe6jstvzqiKf_A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Eay78WkFEe6jstvzqiKf_A" type="_EOmBIGhDEe6MNJ10B1e-FA" association="_EayU4GkFEe6jstvzqiKf_A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QCzg4GkFEe6jstvzqiKf_A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P-MtsGkFEe6jstvzqiKf_A" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Eay78GkFEe6jstvzqiKf_A" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_EayU4GkFEe6jstvzqiKf_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TLqIMGkFEe6jstvzqiKf_A" name="Pesan"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZvXs0GkFEe6jstvzqiKf_A" name="Mengirim Pesan" memberEnd="_ZvYT4GkFEe6jstvzqiKf_A _ZvYT4WkFEe6jstvzqiKf_A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZvXs0WkFEe6jstvzqiKf_A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZvXs0mkFEe6jstvzqiKf_A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZvYT4WkFEe6jstvzqiKf_A" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_ZvXs0GkFEe6jstvzqiKf_A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gdX14GkFEe6jstvzqiKf_A" name="Terdiri Dari" memberEnd="_gdYc8mkFEe6jstvzqiKf_A _gdYc82kFEe6jstvzqiKf_A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gdYc8GkFEe6jstvzqiKf_A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gdYc8WkFEe6jstvzqiKf_A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gdYc8mkFEe6jstvzqiKf_A" name="stream chat" type="_EOmBIGhDEe6MNJ10B1e-FA" association="_gdX14GkFEe6jstvzqiKf_A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gdYc82kFEe6jstvzqiKf_A" name="pesan" type="_TLqIMGkFEe6jstvzqiKf_A" aggregation="composite" association="_gdX14GkFEe6jstvzqiKf_A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mhIIEGkFEe6jstvzqiKf_A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mgWsAGkFEe6jstvzqiKf_A" value="*"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
