@@ -1,10 +1,8 @@
-#Fri Nov 17 07:31:18 WIB 2023
+#Thu Nov 16 23:07:47 WIB 2023
 rulergrid.rulerunit=2
 print.margin.left=0.5
-viewport.x=0
 rulergrid.gridlinestyle=6
-viewport.y=-17
-zoom=1.25
+zoom=0.5
 print.useMillim=true
 print.usePortrait=true
 print.page.height=11.6929134
@@ -14,7 +12,7 @@ print.margin.bottom=0.5
 print.margin.top=0.5
 print.margin.right=0.5
 rulergrid.gridlevel=false
-rulergrid.viewgrid=false
+rulergrid.viewgrid=true
 print.page.size=A4
 rulergrid.gridspacing=20.0
 rulergrid.gridlinecolor=3289650

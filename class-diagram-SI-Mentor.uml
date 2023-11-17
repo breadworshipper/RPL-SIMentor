@@ -16,6 +16,9 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_DX0gIGnCEe6-6KEhL6j6xA" name="Profile Picture">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8SREMIUUEe63QoC9dKV9vQ" name="idKoleksiUser">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_2JA1QGg8Ee6EAvDwdigsTg" name="Registered User">
     <generalization xmi:type="uml:Generalization" xmi:id="__RpNsGg8Ee6EAvDwdigsTg" general="_rGdGwGg8Ee6EAvDwdigsTg"/>
@@ -52,6 +55,8 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_pJxd4GnMEe6-6KEhL6j6xA" name="Harga kelas">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ucHzwIUUEe63QoC9dKV9vQ" name="Koleksi Kelas" type="_nU6n4IUREe63QoC9dKV9vQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YpIPQoUZEe63QoC9dKV9vQ" name="koleksikelas" type="_nU6n4IUREe63QoC9dKV9vQ" association="_YpHoMIUZEe63QoC9dKV9vQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_8v2J4Gg9Ee6MNJ10B1e-FA" name="Mengelola Kelas" memberEnd="_8v2w8mg9Ee6MNJ10B1e-FA _8v3YAGg9Ee6MNJ10B1e-FA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8v2w8Gg9Ee6MNJ10B1e-FA" source="org.eclipse.papyrus">
@@ -148,25 +153,6 @@
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_7KuewGkEEe6jstvzqiKf_A" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_7Kq0YGkEEe6jstvzqiKf_A"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_z1fL8GnHEe6-6KEhL6j6xA" name="Friend Request" memberEnd="_z1fzAWnHEe6-6KEhL6j6xA _z1fzAmnHEe6-6KEhL6j6xA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1fL8WnHEe6-6KEhL6j6xA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z1fzAGnHEe6-6KEhL6j6xA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_-f45IGnHEe6-6KEhL6j6xA" name="Pesan Pertamanan">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_AvmR8GnIEe6-6KEhL6j6xA" name="Timestamp">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
-    </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_DWajMGnIEe6-6KEhL6j6xA" name="Status penerimaan">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
-    </ownedAttribute>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_z1fzAmnHEe6-6KEhL6j6xA" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_z1fL8GnHEe6-6KEhL6j6xA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MfVaEGnJEe6-6KEhL6j6xA"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_L5F5cGnJEe6-6KEhL6j6xA" value="*"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_z1fzAWnHEe6-6KEhL6j6xA" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_z1fL8GnHEe6-6KEhL6j6xA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_2XKXIGnKEe6-6KEhL6j6xA" name="Formulir Join Kelas">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_6dBZQGnKEe6-6KEhL6j6xA" name="Tanggal Pendaftaran">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
@@ -207,5 +193,84 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fxpQ4GnMEe6-6KEhL6j6xA" value="*"/>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_XYWqsGnMEe6-6KEhL6j6xA" name="mentor" type="_35xoQGg8Ee6EAvDwdigsTg" association="_XYUOcGnMEe6-6KEhL6j6xA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8053oISaEe6B-o21Gzzy3Q" name="Friend Request">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Oy_04ISbEe6B-o21Gzzy3Q" name="Pesan Pertemanan">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sPTFYIScEe6B-o21Gzzy3Q" name="Timestamp">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xn3FgIScEe6B-o21Gzzy3Q" name="Status Penerimaan">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ajy3gISdEe6B-o21Gzzy3Q" name="Pengirim" type="_2JA1QGg8Ee6EAvDwdigsTg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dPK4oISdEe6B-o21Gzzy3Q" name="Penerima" type="_2JA1QGg8Ee6EAvDwdigsTg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="__EHrwISbEe6B-o21Gzzy3Q" name="Mengirimkan" visibility="public" memberEnd="__ELWIISbEe6B-o21Gzzy3Q __ESD0ISbEe6B-o21Gzzy3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__EJg8ISbEe6B-o21Gzzy3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__EJg8YSbEe6B-o21Gzzy3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__ESD0ISbEe6B-o21Gzzy3Q" type="_2JA1QGg8Ee6EAvDwdigsTg" association="__EHrwISbEe6B-o21Gzzy3Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="__ELWIISbEe6B-o21Gzzy3Q" type="_8053oISaEe6B-o21Gzzy3Q" association="__EHrwISbEe6B-o21Gzzy3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__EPnkISbEe6B-o21Gzzy3Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__EQ1sISbEe6B-o21Gzzy3Q" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BVYuUISdEe6B-o21Gzzy3Q" name="Menerima Friend Request" memberEnd="_BVZVYoSdEe6B-o21Gzzy3Q _BVajgISdEe6B-o21Gzzy3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BVZVYISdEe6B-o21Gzzy3Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BVZVYYSdEe6B-o21Gzzy3Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BVZVYoSdEe6B-o21Gzzy3Q" type="_8053oISaEe6B-o21Gzzy3Q" association="_BVYuUISdEe6B-o21Gzzy3Q">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Pus9QISdEe6B-o21Gzzy3Q"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PvKQQISdEe6B-o21Gzzy3Q" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BVajgISdEe6B-o21Gzzy3Q" type="_2JA1QGg8Ee6EAvDwdigsTg" association="_BVYuUISdEe6B-o21Gzzy3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nU6n4IUREe63QoC9dKV9vQ" name="KoleksiKelas" visibility="protected">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ngtLsIUSEe63QoC9dKV9vQ" name="listKelas" type="_Sx0owGg9Ee6MNJ10B1e-FA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SsTTMIUTEe63QoC9dKV9vQ" name="KoleksiUser" visibility="package">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_c7q0wIUUEe63QoC9dKV9vQ" name="listUser" type="_rGdGwGg8Ee6EAvDwdigsTg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_9VqBkoUZEe63QoC9dKV9vQ" name="user" type="_rGdGwGg8Ee6EAvDwdigsTg" association="_9VpagIUZEe63QoC9dKV9vQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fpgsUIUaEe63QoC9dKV9vQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9VqooYUZEe63QoC9dKV9vQ" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iB7HcIUVEe63QoC9dKV9vQ" name="Materi">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_bvhf0IUWEe63QoC9dKV9vQ" name="Judul">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hyXzEIUWEe63QoC9dKV9vQ" name="Konten">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_1aaJoIUWEe63QoC9dKV9vQ" name="Kelas Pembelajaran" type="_Sx0owGg9Ee6MNJ10B1e-FA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_v-iPcoUZEe63QoC9dKV9vQ" name="kelas pembelajaran" type="_Sx0owGg9Ee6MNJ10B1e-FA" association="_v-gaQIUZEe63QoC9dKV9vQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v-i2gIUZEe63QoC9dKV9vQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v-i2gYUZEe63QoC9dKV9vQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_YpHoMIUZEe63QoC9dKV9vQ" visibility="protected" memberEnd="_YpIPQoUZEe63QoC9dKV9vQ _YpI2UoUZEe63QoC9dKV9vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YpIPQIUZEe63QoC9dKV9vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YpIPQYUZEe63QoC9dKV9vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_YpI2UoUZEe63QoC9dKV9vQ" name="kelas pembelajaran" type="_Sx0owGg9Ee6MNJ10B1e-FA" association="_YpHoMIUZEe63QoC9dKV9vQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c86YoIUZEe63QoC9dKV9vQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c9BtYIUZEe63QoC9dKV9vQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v-gaQIUZEe63QoC9dKV9vQ" memberEnd="_v-iPcoUZEe63QoC9dKV9vQ _v-i2goUZEe63QoC9dKV9vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v-iPcIUZEe63QoC9dKV9vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-iPcYUZEe63QoC9dKV9vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_v-i2goUZEe63QoC9dKV9vQ" name="materi" type="_iB7HcIUVEe63QoC9dKV9vQ" association="_v-gaQIUZEe63QoC9dKV9vQ">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4CcbgIUZEe63QoC9dKV9vQ" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9VpagIUZEe63QoC9dKV9vQ" memberEnd="_9VqBkoUZEe63QoC9dKV9vQ _9VqoooUZEe63QoC9dKV9vQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9VqBkIUZEe63QoC9dKV9vQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9VqBkYUZEe63QoC9dKV9vQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9VqoooUZEe63QoC9dKV9vQ" name="koleksiuser" type="_SsTTMIUTEe63QoC9dKV9vQ" association="_9VpagIUZEe63QoC9dKV9vQ"/>
   </packagedElement>
 </uml:Model>

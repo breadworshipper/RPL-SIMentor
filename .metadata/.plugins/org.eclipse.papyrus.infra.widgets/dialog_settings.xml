@@ -4,6 +4,6 @@
 		<item key="sort" value="true"/>
 	</section>
 	<section name="org.eclipse.papyrus.infra.widgets.editors.TreeSelectorDialog">
-		<item key="lastTab" value="org.eclipse.papyrus.uml.tools.tabflat"/>
+		<item key="lastTab" value="default"/>
 	</section>
 </section>

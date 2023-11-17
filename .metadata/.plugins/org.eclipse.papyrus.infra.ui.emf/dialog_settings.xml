@@ -3,10 +3,11 @@
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Type:type">
 		<section name="History">
 			<list key="PreviousSelection">
-				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
-				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_2JA1QGg8Ee6EAvDwdigsTg"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
 			</list>
 		</section>
 	</section>
