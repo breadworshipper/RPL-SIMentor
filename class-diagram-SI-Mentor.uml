@@ -290,8 +290,14 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_c86YoIUZEe63QoC9dKV9vQ"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_c9BtYIUZEe63QoC9dKV9vQ" value="*"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_G2AG4IVQEe6JL8szfgHPbw" name="buatKelas"/>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_IuD0sIVQEe6JL8szfgHPbw" name="bacaKelas"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_G2AG4IVQEe6JL8szfgHPbw" name="buatKelas">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_t6kYUIoWEe6yZ6E4pjOEEA" name="detail">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_IuD0sIVQEe6JL8szfgHPbw" name="bacaKelas">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_psDJcIoWEe6yZ6E4pjOEEA" name="mentor" type="_35xoQGg8Ee6EAvDwdigsTg"/>
+    </ownedOperation>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_L4cGAIVQEe6JL8szfgHPbw" name="hapusKelas">
       <ownedParameter xmi:type="uml:Parameter" xmi:id="_L4cGAYVQEe6JL8szfgHPbw" name="kelas" type="_Sx0owGg9Ee6MNJ10B1e-FA"/>
     </ownedOperation>
@@ -366,4 +372,5 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_crHAsYVKEe6JL8szfgHPbw" key="nature" value="UML_Nature"/>
     </eAnnotations>
   </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_cHFvoIoWEe6yZ6E4pjOEEA" name="DataType36"/>
 </uml:Model>
