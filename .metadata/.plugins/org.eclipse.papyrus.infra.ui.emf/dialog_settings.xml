@@ -3,9 +3,19 @@
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__uml:Type:type">
 		<section name="History">
 			<list key="PreviousSelection">
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_rGdGwGg8Ee6EAvDwdigsTg"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_Sx0owGg9Ee6MNJ10B1e-FA"/>
 				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_2JA1QGg8Ee6EAvDwdigsTg"/>
-				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_iB7HcIUVEe63QoC9dKV9vQ"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_2XKXIGnKEe6-6KEhL6j6xA"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_5TracGg8Ee6EAvDwdigsTg"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_8053oISaEe6B-o21Gzzy3Q"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EResourceSet"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigInteger"/>
 			</list>
@@ -16,6 +26,12 @@
 	<section name="org.eclipse.papyrus.infra.ui.emf.providers.EMFGraphicalContentProvider_history__file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml:uml:Type:type">
 		<section name="History">
 			<list key="PreviousSelection">
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_2JA1QGg8Ee6EAvDwdigsTg"/>
+				<item value="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_u1LXEGhDEe6MNJ10B1e-FA"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_iB7HcIUVEe63QoC9dKV9vQ"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_nU6n4IUREe63QoC9dKV9vQ"/>
+				<item value="file:/D:/AA_KULIAH/MATKUL/Semester_5/RPL/RPL-SIMentor/class-diagram-SI-Mentor.uml#_Sx0owGg9Ee6MNJ10B1e-FA"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
 				<item value="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EInt"/>
